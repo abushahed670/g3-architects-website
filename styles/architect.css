@@ -26,6 +26,11 @@
     color: #727272;
 
 }
+.section-title {
+    color: #131313;
+    font-size: 3rem;
+    font-weight: 700;
+}
 /* header styles */
 header {
     background: rgba(255, 144, 14, 0.10);
@@ -57,11 +62,11 @@ nav li a {
     color: #424242;
 }
 
-.nav-title {
+/* .nav-title {
     color: #131313;
     font-size: 3rem;
     font-weight: 700;
-}
+}  use in shared style as section-title class*/
 
 /* banner styles */
 .banner-content {
@@ -126,7 +131,34 @@ main {
 /* .teams-description {
     color: #727272;
     font-weight: 400;
-} common class has been declaration as text-description */
+} use share css  as text-description class*/
+
+/* facts section styles */
+
+.facts-card-container{
+    display: flex;
+    justify-content: space-around;
+   
+}
+.facts-card-container .card{
+    border-radius: 8px;
+    border: 1px solid #FF900E;
+    text-align: center;
+    padding: 30px;
+   
+}
+.facts-card-container .card-title{
+    font-weight: 600;
+    color:#727272;
+    font-size: 20px;
+    margin-top: 5px;
+}
+.facts-card-container .card-stats{
+    font-size: 2.8rem;
+    color: #424242;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
 
 /* responsive media query */
 
